@@ -1,19 +1,21 @@
 package com.company;
 import java.util.Scanner;
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-    int[] pyrimid;
+    int[] pyramid = {,};
     Scanner input = new Scanner(System.in);
-    System.out.println("how big would you like the pyrimid to be?: ");
+    System.out.println("how big would you like the pyramid to be?: ");
     int size = input.nextInt();
-    pyrimid = new int[size*2+1];
-    System.out.println(size);
 
-    for (int i = 0; i<size; i++) {
-        System.out.println(size);
+        for (int i = 0; i<size; i=(i+1)) {
+            pyramid[i] = i;
+            System.out.println(pyramid);
 
-        System.out.println(pyrimid);
+
+
+
 
     }
 
