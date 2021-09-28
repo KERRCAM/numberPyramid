@@ -9,11 +9,15 @@ public class Main {
     System.out.println("how big would you like the pyramid to be?: ");
     int size = input.nextInt();
 
-        for (int i = 0; i<size; i=(i+1)) {
-            pyramid[i] = i;
-            System.out.println(pyramid);
+    for (int i = 0; i<size; i=(i+1)) {
+        pyramid[i] = i;
+        System.out.println(pyramid);
 
+    System.out.println(size);
 
+    for (i = size; i<=0; i=(i-1)) {
+        pyramid[i] = i;
+        System.out.println(pyramid);
 
 
 
