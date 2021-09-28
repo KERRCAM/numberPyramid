@@ -12,21 +12,14 @@ public class Main {
     for (int i = 0; i<size; i=(i+1)) {
         pyramid[i] = i;
         System.out.println(pyramid);
+    }
 
     System.out.println(size);
 
-    for (i = size; i<=0; i=(i-1)) {
+    for (int i = size; i<=0; i=(i-1)) {
         pyramid[i] = i;
         System.out.println(pyramid);
-
-
-
     }
-
-
-
-
-
 
     }
 }
